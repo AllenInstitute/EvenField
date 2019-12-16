@@ -28,12 +28,14 @@ A complete list of associated hardware can be found [here](/Hardware).
 
 This folder contains everything needed to build the EvenField system, including: 
 
-* A complete bill of materials (optics and mounts)
+* A complete [bill of materials] (optics and mounts)
 * CAD renderings and .STEP files for the spinning diffuser component
 * Custom fiber design by Mitsubishi Cable Industries, LTD.
 * *Coming Soon:* Optical alignment guide 
 
 #### Analysis:
-
+The analysis code used for the EvenField publication has also been provided within this repo and may prove useful for evaluating the field flatness of your system. Code was written in Python and can be found [here].
 
 [Nicolase 3500]: https://github.com/PRNicovich/NicoLase 
+[bill of materials]: https://github.com/kylaberry/EvenField/blob/master/Hardware/EvenField%20Parts%20List.md
+[here]: 
