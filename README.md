@@ -21,6 +21,8 @@ Through these efforts, we converged on a simple, cost effective solution consist
 
 This repository contains all of the information you will need to get started on building and employing the Evenfield system in your lab. This system can be used on a traditional, commercial laser launch or can be combined with the open source [Nicolase 3500] diode combiner and fiber launch for a cost effective, total solution for your illumination needs.
 
+![alt text](https://github.com/kylaberry/EvenField/blob/master/Hardware/EvenFieldSchematic.png "EvenField System")
+
 #### Hardware:
 A complete list of associated hardware can be found [here](/Hardware).
 
