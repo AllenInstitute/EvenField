@@ -1,0 +1,365 @@
+[
+    {
+        "autocorrFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_circle_optotune_objective.png", 
+        "coefficientOfVariation": [
+            0.04874379120717579, 
+            0.026227410218357443, 
+            0.011602985263983644, 
+            0.006137925685163717, 
+            0.003040440675958072, 
+            0.002746333123595119, 
+            0.0014915876550038905
+        ], 
+        "collimator": "objective", 
+        "fiber": "circle", 
+        "fileList": [
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Circle\\1ms\\SRON_1ms\\MMStack_Pos0.ome.tif", 
+                "name": "1 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Circle\\2ms\\SRON_2ms\\MMStack_Pos0.ome.tif", 
+                "name": "2 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Circle\\4ms\\SRON_4ms\\MMStack_Pos0.ome.tif", 
+                "name": "4 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Circle\\8ms\\SRON_8ms\\MMStack_Pos0.ome.tif", 
+                "name": "8 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Circle\\16ms\\SRON_16ms\\MMStack_Pos0.ome.tif", 
+                "name": "16 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Circle\\32ms\\SRON_32ms\\MMStack_Pos0.ome.tif", 
+                "name": "32 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Circle\\64ms\\SRON_64ms\\MMStack_Pos0.ome.tif", 
+                "name": "64 ms"
+            }
+        ], 
+        "intensityTraceFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\timeTrace_circle_optotune_objective.png", 
+        "scrambler": "optotune", 
+        "status": "ON", 
+        "whichEntriesPlotted": [
+            0, 
+            4
+        ]
+    }, 
+    {
+        "autocorrFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_largeSquare_optotune_ThorlabsPAF2P-18A.png", 
+        "autocorrMatchZoomFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_largeSquare_optotune_ThorlabsPAF2P-18A_MatchZoom.png", 
+        "coefficientOfVariation": [
+            0.021488949245773287, 
+            0.01292012016483759, 
+            0.004982680684585845, 
+            0.003270080600408255, 
+            0.0026696352078669798, 
+            0.0032109473174642186, 
+            0.0028537630930203285
+        ], 
+        "collimator": "ThorlabsPAF2P-18A", 
+        "fiber": "largeSquare", 
+        "fileList": [
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190121\\Large Sq\\1ms\\SRON_1ms\\MMStack_Pos0.ome.tif", 
+                "name": "1 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190121\\Large Sq\\2ms\\SRON_2ms\\MMStack_Pos0.ome.tif", 
+                "name": "2 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190121\\Large Sq\\4ms\\SRON_4ms\\MMStack_Pos0.ome.tif", 
+                "name": "4 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190121\\Large Sq\\8ms\\SRON_8ms\\MMStack_Pos0.ome.tif", 
+                "name": "8 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190121\\Large Sq\\16ms\\SRON_16ms\\MMStack_Pos0.ome.tif", 
+                "name": "16 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190121\\Large Sq\\32ms\\SRON_32ms\\MMStack_Pos0.ome.tif", 
+                "name": "32 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190121\\Large Sq\\64ms\\SRON_64ms\\MMStack_Pos0.ome.tif", 
+                "name": "64 ms"
+            }
+        ], 
+        "intensityTraceFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\timeTrace_largeSquare_optotune_ThorlabsPAF2P-18A.png", 
+        "scrambler": "optotune", 
+        "status": "ON", 
+        "whichEntriesPlotted": [
+            0, 
+            4
+        ]
+    }, 
+    {
+        "autocorrFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_smallSquare_optotune_objective.png", 
+        "autocorrMatchZoomFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_smallSquare_optotune_objective_MatchZoom.png", 
+        "coefficientOfVariation": [
+            0.02362393445153512, 
+            0.012587684917196012, 
+            0.00496807586435405, 
+            0.003762594879515756, 
+            0.002129264981774852, 
+            0.002680931323416922, 
+            0.005064915355685583
+        ], 
+        "collimator": "objective", 
+        "fiber": "smallSquare", 
+        "fileList": [
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Small Square\\1ms\\SRON_1ms\\MMStack_Pos0.ome.tif", 
+                "name": "1 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Small Square\\2ms\\SRON_2ms\\MMStack_Pos0.ome.tif", 
+                "name": "2 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Small Square\\4ms\\SRON_4ms\\MMStack_Pos0.ome.tif", 
+                "name": "4 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Small Square\\8ms\\SRON2_8ms\\MMStack_Pos0.ome.tif", 
+                "name": "8 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Small Square\\16ms\\SRON_16ms\\MMStack_Pos0.ome.tif", 
+                "name": "16 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Small Square\\32ms\\SRON_32ms\\MMStack_Pos0.ome.tif", 
+                "name": "32 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181219\\Small Square\\64ms\\SRON_64ms\\MMStack_Pos0.ome.tif", 
+                "name": "64 ms"
+            }
+        ], 
+        "intensityTraceFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\timeTrace_smallSquare_optotune_objective.png", 
+        "scrambler": "optotune", 
+        "status": "ON", 
+        "whichEntriesPlotted": [
+            0, 
+            4
+        ]
+    }, 
+    {
+        "autocorrFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_borealis_borealis_objective.png", 
+        "autocorrMatchZoomFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_borealis_borealis_objective_MatchZoom.png", 
+        "coefficientOfVariation": [
+            0.002193400628089235, 
+            0.005528460550121121, 
+            0.0031886140459711494, 
+            0.0007895758946626962, 
+            0.002852753385762216, 
+            0.002541550914992871, 
+            0.0023919854186027507
+        ], 
+        "collimator": "objective", 
+        "fiber": "borealis", 
+        "fileList": [
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181102\\Borealis\\1ms\\SRON_1ms\\MMStack_Pos0.ome.tif", 
+                "name": "1 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181102\\Borealis\\2ms\\SRON_2ms\\MMStack_Pos0.ome.tif", 
+                "name": "2 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181102\\Borealis\\4ms\\SRON_4ms\\MMStack_Pos0.ome.tif", 
+                "name": "4 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181102\\Borealis\\8ms\\SRON_8ms\\MMStack_Pos0.ome.tif", 
+                "name": "8 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181102\\Borealis\\16ms\\SRON_16ms\\MMStack_Pos0.ome.tif", 
+                "name": "16 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181102\\Borealis\\32ms\\SRON_32ms\\MMStack_Pos0.ome.tif", 
+                "name": "32 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\181102\\Borealis\\64ms\\SRON_64ms\\MMStack_Pos0.ome.tif", 
+                "name": "64 ms"
+            }
+        ], 
+        "intensityTraceFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\timeTrace_borealis_borealis_objective.png", 
+        "scrambler": "borealis", 
+        "status": "ON", 
+        "whichEntriesPlotted": [
+            0, 
+            4
+        ]
+    }, 
+    {
+        "autocorrFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_largeSquare_diffuser_objective.png", 
+        "autocorrMatchZoomFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_largeSquare_diffuser_objective_MatchZoom.png", 
+        "coefficientOfVariation": [
+            0.0035158005528010796, 
+            0.003261782882965902, 
+            0.0017614632489653028, 
+            0.0009831267701824564, 
+            0.0004692780930831251, 
+            0.0007482675727023658, 
+            0.0013269204906314848
+        ], 
+        "collimator": "objective", 
+        "fiber": "largeSquare", 
+        "fileList": [
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0001msec\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "1 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0002msec\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "2 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0004msec\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "4 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0008msec\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "8 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0016msec\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "16 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0032msec\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "32 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0064msec\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "64 ms"
+            }
+        ], 
+        "intensityTraceFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\timeTrace_largeSquare_diffuser_objective.png", 
+        "scrambler": "diffuser", 
+        "status": "ON", 
+        "whichEntriesPlotted": [
+            0, 
+            4
+        ]
+    }, 
+    {
+        "autocorrFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_largeSquare_diffuserVoltage_objective.png", 
+        "autocorrMatchZoomFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_largeSquare_diffuserVoltage_objective_MatchZoom.png", 
+        "coefficientOfVariation": [
+            0.0027991259086571096, 
+            0.003041009377413701, 
+            0.003389769696539204, 
+            0.004111071243974933, 
+            0.004940227665038183, 
+            0.006292258066701914, 
+            0.0011864098395369554
+        ], 
+        "collimator": "objective", 
+        "fiber": "largeSquare", 
+        "fileList": [
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0001msec_12v\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "12 V"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0001msec_10v\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "10 V"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0001msec_08v\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "8 V"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0001msec_06v\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "6 V"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0001msec_04v\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "4 V"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0001msec_02v\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "2 V"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190820\\moving_0001msec_00v\\cropped_1\\cropped_1_MMStack_Pos0.ome.tif", 
+                "name": "0 V"
+            }
+        ], 
+        "intensityTraceFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\timeTrace_largeSquare_diffuserVoltage_objective.png", 
+        "scrambler": "diffuserVoltage", 
+        "status": "ON", 
+        "whichEntriesPlotted": [
+            0, 
+            4
+        ]
+    }, 
+    {
+        "autocorrFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_smallSquare_diffuser_ThorlabsPAF2P-18A.png", 
+        "autocorrMatchZoomFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\autoCorr_smallSquare_diffuser_ThorlabsPAF2P-18A_MatchZoom.png", 
+        "coefficientOfVariation": [
+            0.008535049260122834, 
+            0.008039096343570851, 
+            0.006011509679846714, 
+            0.0013520214456006084, 
+            0.0014074894787033353, 
+            0.0012743115949024081, 
+            0.00026726552512199876
+        ], 
+        "collimator": "ThorlabsPAF2P-18A", 
+        "fiber": "smallSquare", 
+        "fileList": [
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190829\\thorlabsSquare_moving_0001msec\\stack_2\\stack_2_MMStack_Pos0.ome.tif", 
+                "name": "1 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190829\\thorlabsSquare_moving_0002msec\\stack_1\\stack_1_MMStack_Pos0.ome.tif", 
+                "name": "2 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190829\\thorlabsSquare_moving_0004msec\\stack_1\\stack_1_MMStack_Pos0.ome.tif", 
+                "name": "4 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190829\\thorlabsSquare_moving_0008msec\\stack_1\\stack_1_MMStack_Pos0.ome.tif", 
+                "name": "8 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190829\\thorlabsSquare_moving_0016msec\\stack_1\\stack_1_MMStack_Pos0.ome.tif", 
+                "name": "16 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190829\\thorlabsSquare_moving_0032msec\\stack_1\\stack_1_MMStack_Pos0.ome.tif", 
+                "name": "32 ms"
+            }, 
+            {
+                "file": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\190829\\thorlabsSquare_moving_0064msec\\stack_1\\stack_1_MMStack_Pos0.ome.tif", 
+                "name": "64 ms"
+            }
+        ], 
+        "intensityTraceFigurePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\timeTrace_smallSquare_diffuser_ThorlabsPAF2P-18A.png", 
+        "scrambler": "diffuser", 
+        "status": "ON", 
+        "whichEntriesPlotted": [
+            0, 
+            4
+        ]
+    }
+]

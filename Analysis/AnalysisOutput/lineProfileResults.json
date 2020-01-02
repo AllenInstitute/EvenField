@@ -1,0 +1,674 @@
+[
+    {
+        "AreaInner": 1643515, 
+        "AreaOuter": 1989498, 
+        "CoefficientOfVariation": 0.06810141628467331, 
+        "CoefficientOfVariation_XYTraces": [
+            0.04862148709788791, 
+            0.04354960829939907
+        ], 
+        "DiffArea": 345983, 
+        "DiffAreaPct": 17.390467344023467, 
+        "ImageSize": [
+            2048, 
+            2448
+        ], 
+        "ImageThreshold": 11892.03125, 
+        "IntensityInAndOutofInnerMask": [
+            38908870877.0, 
+            5288478916.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            42776195591.0, 
+            1421154202.0
+        ], 
+        "ThreshAreaInsideOuter": 177787, 
+        "ThreshAreaOutsideInner": 168318, 
+        "XCurveFit": [
+            836.9999928057385, 
+            23581.749694905502, 
+            967.2278602155607, 
+            1346.8939648637088, 
+            14.730640153361401
+        ], 
+        "YCurveFit": [
+            509.00000864770055, 
+            23847.254313385696, 
+            1200.6913616292272, 
+            1346.9992167643686, 
+            13.311920907593418
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "ThorlabsPAF2P-18A", 
+        "darkfieldImage": "\\190121\\Large Sq\\darkfield\\darkfield.tif", 
+        "fiber": "largeSquare", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_optotune_ON_ThorlabsPAF2P-18A.png", 
+        "inputImage": "\\190121\\Large Sq\\16ms\\180121_SRON_16ms\\MMStack_Pos0.ome.tif", 
+        "scrambler": "optotune", 
+        "status": "ON"
+    }, 
+    {
+        "AreaInner": 64770, 
+        "AreaOuter": 117980, 
+        "CoefficientOfVariation": 0.022965277655731118, 
+        "CoefficientOfVariation_XYTraces": [
+            0.018079145390797406, 
+            0.019579816393747066
+        ], 
+        "DiffArea": 53210, 
+        "DiffAreaPct": 45.10086455331412, 
+        "ImageSize": [
+            2048, 
+            2448
+        ], 
+        "ImageThreshold": 15418.275390625, 
+        "IntensityInAndOutofInnerMask": [
+            2109427521.0, 
+            768249253.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            2780652973.0, 
+            97023801.0
+        ], 
+        "ThreshAreaInsideOuter": 32251, 
+        "ThreshAreaOutsideInner": 21051, 
+        "XCurveFit": [
+            41.68675166005997, 
+            32882.313277251196, 
+            1045.9640648390964, 
+            298.4948993520942, 
+            9.401028368733432
+        ], 
+        "YCurveFit": [
+            4.6615274770015445, 
+            32392.29998489337, 
+            1234.3529430680196, 
+            302.18408271023344, 
+            10.047113370804349
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "objective", 
+        "darkfieldImage": "\\181219\\Small Square\\AvgDarkfield.tif", 
+        "fiber": "smallSquare", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_smallSquare_optotune_ON_objective.png", 
+        "inputImage": "\\181219\\Small Square\\16ms\\181219_SRON_16ms\\MMStack_Pos0.ome.tif", 
+        "scrambler": "optotune", 
+        "status": "ON"
+    }, 
+    {
+        "AreaInner": 19995, 
+        "AreaOuter": 58000, 
+        "CoefficientOfVariation": 0.07565347494741484, 
+        "CoefficientOfVariation_XYTraces": [
+            0.025165961662457235, 
+            0.035412617563194776
+        ], 
+        "DiffArea": 38005, 
+        "DiffAreaPct": 65.52586206896551, 
+        "ImageSize": [
+            2048, 
+            2448
+        ], 
+        "ImageThreshold": 15555.7109375, 
+        "IntensityInAndOutofInnerMask": [
+            674421851.0, 
+            234933623.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            1003724082.0, 
+            -94368608.0
+        ], 
+        "ThreshAreaInsideOuter": 28221, 
+        "ThreshAreaOutsideInner": 9955, 
+        "XCurveFit": [
+            -4.337839828129797, 
+            34616.88519260041, 
+            1066.1862553030326, 
+            190.52478407972785, 
+            13.240883379002584
+        ], 
+        "YCurveFit": [
+            -6.1522028152161, 
+            34597.19072478698, 
+            1222.1303683941255, 
+            194.51844609216138, 
+            8.373453335688822
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "objective", 
+        "darkfieldImage": "\\181219\\Circle\\AvgDarkfield.tif", 
+        "fiber": "circle", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_circle_optotune_ON_objective.png", 
+        "inputImage": "\\181219\\Circle\\16ms\\181219_SRON_16ms\\MMStack_Pos0.ome.tif", 
+        "scrambler": "optotune", 
+        "status": "ON"
+    }, 
+    {
+        "AreaInner": 142476, 
+        "AreaOuter": 196690, 
+        "CoefficientOfVariation": 0.059377777376370726, 
+        "CoefficientOfVariation_XYTraces": [
+            0.05597009289260918, 
+            0.02190860146758434
+        ], 
+        "DiffArea": 54214, 
+        "DiffAreaPct": 27.563170471300012, 
+        "ImageSize": [
+            2048, 
+            2448
+        ], 
+        "ImageThreshold": 11982.810546875, 
+        "IntensityInAndOutofInnerMask": [
+            3509792855.0, 
+            685555189.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            4044848686.0, 
+            150499358.0
+        ], 
+        "ThreshAreaInsideOuter": 33621, 
+        "ThreshAreaOutsideInner": 20712, 
+        "XCurveFit": [
+            40.39906950827961, 
+            24308.110071232917, 
+            1010.4249851640436, 
+            409.50018106534856, 
+            7.937237719618651
+        ], 
+        "YCurveFit": [
+            9.160497492889387, 
+            24478.238970767758, 
+            1173.6368338761008, 
+            413.26899403550215, 
+            6.4838622502213745
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "objective", 
+        "darkfieldImage": "\\181102\\Borealis\\Darkfield\\AVG_MMStack_Pos0.ome.tif", 
+        "fiber": "borealis", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_borealis_borealis_ON_objective.png", 
+        "inputImage": "\\181102\\Borealis\\16ms\\181102_SRON_16ms\\MMStack_Pos0.ome.tif", 
+        "scrambler": "borealis", 
+        "status": "ON"
+    }, 
+    {
+        "AreaInner": 1652490, 
+        "AreaOuter": 1981014, 
+        "CoefficientOfVariation": 0.1206585481989829, 
+        "CoefficientOfVariation_XYTraces": [
+            0.11941777872095778, 
+            0.11486136454358883
+        ], 
+        "DiffArea": 328524, 
+        "DiffAreaPct": 16.5836283842517, 
+        "ImageSize": [
+            2048, 
+            2448
+        ], 
+        "ImageThreshold": 10237.736328125, 
+        "IntensityInAndOutofInnerMask": [
+            33951329081.0, 
+            4461253848.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            37179805036.0, 
+            1232777893.0
+        ], 
+        "ThreshAreaInsideOuter": 168620, 
+        "ThreshAreaOutsideInner": 160015, 
+        "XCurveFit": [
+            708.9999090057331, 
+            20087.00110038798, 
+            966.5768774888694, 
+            1348.3559793302006, 
+            14.487678112250169
+        ], 
+        "YCurveFit": [
+            442.0000043814319, 
+            20282.000073423478, 
+            1200.9106627320023, 
+            1345.9000099565058, 
+            12.180120169565901
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "ThorlabsPAF2P-18A", 
+        "darkfieldImage": "\\190121\\Large Sq\\darkfield\\darkfield.tif", 
+        "fiber": "largeSquare", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_optotune_OFF_ThorlabsPAF2P-18A.png", 
+        "inputImage": "\\190121\\Large Sq\\16ms\\180121_SROFF_16ms\\MMStack_Pos0.ome.tif", 
+        "scrambler": "optotune", 
+        "status": "OFF"
+    }, 
+    {
+        "AreaInner": 64260, 
+        "AreaOuter": 117986, 
+        "CoefficientOfVariation": 0.06453737434301515, 
+        "CoefficientOfVariation_XYTraces": [
+            0.06120769530400853, 
+            0.06065983933925163
+        ], 
+        "DiffArea": 53726, 
+        "DiffAreaPct": 45.535911040292916, 
+        "ImageSize": [
+            2048, 
+            2448
+        ], 
+        "ImageThreshold": 12987.22265625, 
+        "IntensityInAndOutofInnerMask": [
+            1765863014.0, 
+            631352328.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            2341599054.0, 
+            55616288.0
+        ], 
+        "ThreshAreaInsideOuter": 32351, 
+        "ThreshAreaOutsideInner": 21469, 
+        "XCurveFit": [
+            30.64010689612548, 
+            27982.9793800475, 
+            1045.7265241277667, 
+            299.0332249946918, 
+            9.454614133470683
+        ], 
+        "YCurveFit": [
+            0.9803053662965531, 
+            27494.06578535733, 
+            1233.9094827266622, 
+            300.1661597843033, 
+            10.233211415214829
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "objective", 
+        "darkfieldImage": "\\181219\\Small Square\\AvgDarkfield.tif", 
+        "fiber": "smallSquare", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_smallSquare_optotune_OFF_objective.png", 
+        "inputImage": "\\181219\\Small Square\\16ms\\181219_SROFF_16ms\\MMStack_Pos0.ome.tif", 
+        "scrambler": "optotune", 
+        "status": "OFF"
+    }, 
+    {
+        "AreaInner": 20124, 
+        "AreaOuter": 57536, 
+        "CoefficientOfVariation": 0.09760248110712957, 
+        "CoefficientOfVariation_XYTraces": [
+            0.056610871831201066, 
+            0.08157992564194545
+        ], 
+        "DiffArea": 37412, 
+        "DiffAreaPct": 65.02363737486095, 
+        "ImageSize": [
+            2048, 
+            2448
+        ], 
+        "ImageThreshold": 13487.326171875, 
+        "IntensityInAndOutofInnerMask": [
+            587752922.0, 
+            130657519.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            868444175.0, 
+            -150033734.0
+        ], 
+        "ThreshAreaInsideOuter": 27814, 
+        "ThreshAreaOutsideInner": 9778, 
+        "XCurveFit": [
+            -21.999999669753272, 
+            30708.198564344293, 
+            1065.8719702002022, 
+            189.49673473135093, 
+            12.89023362890371
+        ], 
+        "YCurveFit": [
+            -19.066040412860097, 
+            30136.105534533915, 
+            1222.0714906232456, 
+            194.79120777089594, 
+            8.190007114115621
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "objective", 
+        "darkfieldImage": "\\190121\\Large Sq\\darkfield\\darkfield.tif", 
+        "fiber": "circle", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_circle_optotune_OFF_objective.png", 
+        "inputImage": "\\181219\\Circle\\16ms\\181219_SROFF_16ms\\MMStack_Pos0.ome.tif", 
+        "scrambler": "optotune", 
+        "status": "OFF"
+    }, 
+    {
+        "AreaInner": 140958, 
+        "AreaOuter": 196680, 
+        "CoefficientOfVariation": 0.15626670649553612, 
+        "CoefficientOfVariation_XYTraces": [
+            0.1580971087113688, 
+            0.1359761594744004
+        ], 
+        "DiffArea": 55722, 
+        "DiffAreaPct": 28.33129957291031, 
+        "ImageSize": [
+            2048, 
+            2448
+        ], 
+        "ImageThreshold": 9318.896484375, 
+        "IntensityInAndOutofInnerMask": [
+            2730025333.0, 
+            560808948.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            3168182124.0, 
+            122652157.0
+        ], 
+        "ThreshAreaInsideOuter": 34299, 
+        "ThreshAreaOutsideInner": 21615, 
+        "XCurveFit": [
+            48.14493705323, 
+            19654.85506631845, 
+            1014.4437474710105, 
+            408.74311648254627, 
+            8.539504781236346
+        ], 
+        "YCurveFit": [
+            14.999976237551323, 
+            18173.480782823637, 
+            1173.904670931624, 
+            411.82373186945233, 
+            6.392381942607418
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "objective", 
+        "darkfieldImage": "\\190121\\Large Sq\\darkfield\\darkfield.tif", 
+        "fiber": "borealis", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_borealis_borealis_OFF_objective.png", 
+        "inputImage": "\\181102\\Borealis\\16ms\\181102_SROFF_16ms\\MMStack_Pos0.ome.tif", 
+        "scrambler": "borealis", 
+        "status": "OFF"
+    }, 
+    {
+        "AreaInner": 1090824, 
+        "AreaOuter": 1196692, 
+        "CoefficientOfVariation": 0.026480193405513424, 
+        "CoefficientOfVariation_XYTraces": [
+            0.015306597351512748, 
+            0.023339668927243165
+        ], 
+        "DiffArea": 105868, 
+        "DiffAreaPct": 8.846720793654507, 
+        "ImageSize": [
+            2048, 
+            2048
+        ], 
+        "ImageThreshold": 23575.83203125, 
+        "IntensityInAndOutofInnerMask": [
+            51350932428.0, 
+            3372559245.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            53540540787.0, 
+            1182950886.0
+        ], 
+        "ThreshAreaInsideOuter": 59299, 
+        "ThreshAreaOutsideInner": 46644, 
+        "XCurveFit": [
+            419.9919992937216, 
+            47240.00797411474, 
+            1129.9567303181607, 
+            1057.8908959559776, 
+            5.309657554828124
+        ], 
+        "YCurveFit": [
+            468.9999745987145, 
+            47104.01035378869, 
+            971.8138816075093, 
+            1082.2501126700117, 
+            5.308571232793813
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "objective", 
+        "darkfieldImage": "\\190820\\noLaser_0125msec\\MMStack_Pos0.ome.tif", 
+        "fiber": "largeSquare", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_diffuser_ON_objective.png", 
+        "inputImage": "\\190820\\fullFrame_moving_0125msec\\MMStack_Pos0.ome.tif", 
+        "scrambler": "diffuser", 
+        "status": "ON"
+    }, 
+    {
+        "AreaInner": 1412260, 
+        "AreaOuter": 1651189, 
+        "CoefficientOfVariation": 0.028914714088765548, 
+        "CoefficientOfVariation_XYTraces": [
+            0.018287909161740723, 
+            0.016803268493783687
+        ], 
+        "DiffArea": 238929, 
+        "DiffAreaPct": 14.470118199673085, 
+        "ImageSize": [
+            2048, 
+            2048
+        ], 
+        "ImageThreshold": 19428.97265625, 
+        "IntensityInAndOutofInnerMask": [
+            54336609013.0, 
+            6067884562.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            58663303646.0, 
+            1741189929.0
+        ], 
+        "ThreshAreaInsideOuter": 129712, 
+        "ThreshAreaOutsideInner": 109303, 
+        "XCurveFit": [
+            722.9999928578562, 
+            38198.000029258124, 
+            958.6967764730255, 
+            1226.5726808794984, 
+            11.748086138104977
+        ], 
+        "YCurveFit": [
+            747.0823589404456, 
+            38019.91764055917, 
+            961.6871604579508, 
+            1248.5319821128787, 
+            9.364467986438296
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "ThorlabsPAF2P-18A", 
+        "darkfieldImage": "\\190820\\noLaser_0125msec\\MMStack_Pos0.ome.tif", 
+        "fiber": "largeSquare", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_diffuser_ON_ThorlabsPAF2P-18A.png", 
+        "inputImage": "\\190820\\thorlabs_moving_0125msec\\MMStack_Pos0.ome.tif", 
+        "scrambler": "diffuser", 
+        "status": "ON"
+    }, 
+    {
+        "AreaInner": 185952, 
+        "AreaOuter": 303846, 
+        "CoefficientOfVariation": 0.034766709587997484, 
+        "CoefficientOfVariation_XYTraces": [
+            0.02499387568931185, 
+            0.01919765217107656
+        ], 
+        "DiffArea": 117894, 
+        "DiffAreaPct": 38.80057660788689, 
+        "ImageSize": [
+            2048, 
+            2048
+        ], 
+        "ImageThreshold": 19125.716796875, 
+        "IntensityInAndOutofInnerMask": [
+            7388218040.0, 
+            2131601614.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            9142200325.0, 
+            377619329.0
+        ], 
+        "ThreshAreaInsideOuter": 73680, 
+        "ThreshAreaOutsideInner": 44301, 
+        "XCurveFit": [
+            111.99999999855604, 
+            40184.4703420819, 
+            1421.7011863605092, 
+            493.45318524584854, 
+            16.735085475891616
+        ], 
+        "YCurveFit": [
+            99.76883495879787, 
+            39785.55250376965, 
+            888.9250427429877, 
+            491.63392962433, 
+            9.52195659228862
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "ThorlabsPAF2P-18A", 
+        "darkfieldImage": "\\190829\\noLaser_0001ms\\MMStack_Pos0.ome.tif", 
+        "fiber": "smallSquare", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_smallSquare_diffuser_ON_ThorlabsPAF2P-18A.png", 
+        "inputImage": "\\190829\\fullFrame_thorlabsSquare_moving_0125ms\\MMStack_Pos0.ome.tif", 
+        "scrambler": "diffuser", 
+        "status": "ON"
+    }, 
+    {
+        "AreaInner": 1084450, 
+        "AreaOuter": 1197840, 
+        "CoefficientOfVariation": 0.1667454180801621, 
+        "CoefficientOfVariation_XYTraces": [
+            0.16467112956045454, 
+            0.14759663423197164
+        ], 
+        "DiffArea": 113390, 
+        "DiffAreaPct": 9.466205837173579, 
+        "ImageSize": [
+            2048, 
+            2048
+        ], 
+        "ImageThreshold": 14050.5078125, 
+        "IntensityInAndOutofInnerMask": [
+            30571060738.0, 
+            2182872562.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            32050581351.0, 
+            703351949.0
+        ], 
+        "ThreshAreaInsideOuter": 61726, 
+        "ThreshAreaOutsideInner": 51754, 
+        "XCurveFit": [
+            251.81113927659916, 
+            27448.188846532023, 
+            1130.444756712956, 
+            1056.3104370354852, 
+            6.6231126128050075
+        ], 
+        "YCurveFit": [
+            280.8991125672992, 
+            26772.243178980916, 
+            971.9657726145331, 
+            1082.1858505147413, 
+            4.888515520161604
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "objective", 
+        "darkfieldImage": "\\190820\\noLaser_0125msec\\MMStack_Pos0.ome.tif", 
+        "fiber": "largeSquare", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_diffuser_OFF_objective.png", 
+        "inputImage": "\\190820\\fullFrame_static_0125msec\\MMStack_Pos0.ome.tif", 
+        "scrambler": "diffuser", 
+        "status": "OFF"
+    }, 
+    {
+        "AreaInner": 1405200, 
+        "AreaOuter": 1661496, 
+        "CoefficientOfVariation": 0.1358487902131883, 
+        "CoefficientOfVariation_XYTraces": [
+            0.13814905575097627, 
+            0.12317074029664858
+        ], 
+        "DiffArea": 256296, 
+        "DiffAreaPct": 15.42561643241994, 
+        "ImageSize": [
+            2048, 
+            2048
+        ], 
+        "ImageThreshold": 11850.654296875, 
+        "IntensityInAndOutofInnerMask": [
+            32866413032.0, 
+            4142896730.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            35654555767.0, 
+            1354753995.0
+        ], 
+        "ThreshAreaInsideOuter": 139971, 
+        "ThreshAreaOutsideInner": 116419, 
+        "XCurveFit": [
+            561.0000571148069, 
+            23372.482705384486, 
+            959.2227887950469, 
+            1228.2830040790154, 
+            12.349690782287876
+        ], 
+        "YCurveFit": [
+            570.6208835341556, 
+            22319.379117712142, 
+            960.8720569515181, 
+            1248.0771069474883, 
+            10.431722981197895
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "ThorlabsPAF2P-18A", 
+        "darkfieldImage": "\\190820\\noLaser_0125msec\\MMStack_Pos0.ome.tif", 
+        "fiber": "largeSquare", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_diffuser_OFF_ThorlabsPAF2P-18A.png", 
+        "inputImage": "\\190820\\thorlabs_static_0125msec\\MMStack_Pos0.ome.tif", 
+        "scrambler": "diffuser", 
+        "status": "OFF"
+    }, 
+    {
+        "AreaInner": 183063, 
+        "AreaOuter": 308398, 
+        "CoefficientOfVariation": 0.12379838412155043, 
+        "CoefficientOfVariation_XYTraces": [
+            0.12475981323108251, 
+            0.11893283933377766
+        ], 
+        "DiffArea": 125335, 
+        "DiffAreaPct": 40.64066563336986, 
+        "ImageSize": [
+            2048, 
+            2048
+        ], 
+        "ImageThreshold": 18237.6640625, 
+        "IntensityInAndOutofInnerMask": [
+            6926483682.0, 
+            2137098200.0
+        ], 
+        "IntensityInAndOutofOuterMask": [
+            8697858539.0, 
+            365723343.0
+        ], 
+        "ThreshAreaInsideOuter": 78765, 
+        "ThreshAreaOutsideInner": 46673, 
+        "XCurveFit": [
+            109.00000027225974, 
+            37348.636616270116, 
+            1422.6164890712485, 
+            493.5327658575471, 
+            16.539720559444532
+        ], 
+        "YCurveFit": [
+            96.00000519673348, 
+            36928.342327143684, 
+            889.8673468466202, 
+            491.27526728809625, 
+            11.159355926375238
+        ], 
+        "baseFolder": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField", 
+        "collimator": "ThorlabsPAF2P-18A", 
+        "darkfieldImage": "\\190829\\noLaser_0001ms\\MMStack_Pos0.ome.tif", 
+        "fiber": "smallSquare", 
+        "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_smallSquare_diffuser_OFF_ThorlabsPAF2P-18A.png", 
+        "inputImage": "\\190829\\fullFrame_thorlabsSquare_static_0125ms\\MMStack_Pos0.ome.tif", 
+        "scrambler": "diffuser", 
+        "status": "OFF"
+    }
+]
