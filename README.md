@@ -31,7 +31,7 @@ This folder contains everything needed to build the EvenField system, including:
 
 * A complete [bill of materials] (optics and mounts)
 * CAD renderings and .STEP files for the spinning diffuser component
-* Custom fiber design by Mitsubishi Cable Industries, LTD.
+* Details on custom optical fiber from Mitsubishi Cable Industries (MCI).
 * *Coming Soon:* Optical alignment guide 
 
 #### Analysis:
