@@ -25,7 +25,7 @@
     2 x Thorlabs ER6, Cage Assembly Rod, 6” Long
 
 ### Fiber:
-    1 x Custom Mitsubishi Multimode Square Core Fiber, 600 µm x 600 µm core, 0.15 NA 
+    1 x Custom Multimode Square Core Fiber from Mitsubishi Cable Industries, LTD., 600 µm x 600 µm core, 0.15 NA P/N: KV95P2 ST600SQH 
      OR
     1 x Thorlabs M43L05, Ø105 µm, 0.22 NA, Low OH, FC/PC-FC/PC Fiber Patch Cable, 5 m
 
