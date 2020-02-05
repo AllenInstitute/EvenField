@@ -1,0 +1,21 @@
+Evenfield custom square core fiber:
+
+P/N: KV95P2 ST600SQH
+
+600 µm x 600 µm (nominal) square-core fiber
+FC/PC-compatible* couplers
+Keyed exit
+3-5m length
+
+Fiber is ~12 mm in diameter and has a minimum bending radius of ~18 inches.  Care is needed to not bend or crimp the fiber or it could be irreparably damaged. Let fiber rest on table or support over whole length.  For long distances we used 3/4" ID, 1/16" wall PETG tubing (McMaster-Carr 9245K33) as conduit.  Tubing can be shaped with heat gun and silicone rubber cord (McMaster-Carr 96505K29) into desired path. 
+
+* Modifications are required for Thorlabs Fiberports.  Issues:
+1. Supplied couplers have key on exit which is smaller than standard FC/PC key.  
+
+2. Fiberport key slot (or modified slot) is not aligned to table/camera.  
+
+Second slot for smaller key can be milled into coupler mount. Remove ferrule/coupler threads in center of mount by removing three countersunk socket head screws (unmarked on PAF2 models) and removing clamp plate to free ferrule. Deliver ferrule to machine shop to mill a new key slot. Important to make slot a snug fit for key with little slop.  
+
+When reinstalling ferrule, reverse procedure.  Ensure clamp plate is flat by tightening countersunk mounting screws in a few cycles of a circular sequence.  Can leave screws a bit loose to allow rotating ferrule. Do this with some light exiting the Fiberport and the component in its final place (or at least mounted in a reference position, such as in a cage plate parallel to the optical table) and you can align the square core of the fiber to your optical path.  
+
+
