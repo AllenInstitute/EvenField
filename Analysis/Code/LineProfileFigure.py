@@ -23,7 +23,12 @@ import json
 import os
 from matplotlib.path import Path
 from scipy.stats import variation
+from scipy.ndimage.filters import gaussian_filter
 
+# Low value for bounding box. 0.01 = 1% of peak fit intensity
+lowBound = 0.01
+# High value for bounding box. 0.01 = 99% of peak fit intensity
+highBound = 0.01
 
 def tophat(x, base_level, hat_level, hat_mid, hat_width):
     return np.where((hat_mid-hat_width/2. < x) & (x < hat_mid+hat_width/2.), hat_level, base_level)
@@ -75,7 +80,7 @@ def calcAxLimits(boundSquareHigh, border = 0.1):
 
 outputFolder = r'C:\Users\rustyn\OneDrive - Allen Institute\evenField\Figures'
 
-writeToDisk = False
+writeToDisk = True
 
 executeList = []
 
@@ -123,12 +128,12 @@ executeList.append({'baseFolder' : r'C:\Users\rustyn\OneDrive - Allen Institute\
                     'fiber' : 'borealis',
                     'collimator' : 'objective',
                     'status' : 'ON'})  
-
-# -------- 
-# OFF
-# --------
-# large square
-    
+#
+## -------- 
+## OFF
+## --------
+## large square
+#    
 executeList.append({'baseFolder' : r'C:\Users\rustyn\OneDrive - Allen Institute\evenField', 
                     'inputImage' : r'\190121\Large Sq\16ms\180121_SROFF_16ms\MMStack_Pos0.ome.tif', 
                     'darkfieldImage' : r'\190121\Large Sq\darkfield\darkfield.tif',
@@ -194,7 +199,7 @@ executeList.append({'baseFolder' : r'C:\Users\rustyn\OneDrive - Allen Institute\
                 'collimator' : 'ThorlabsPAF2P-18A',
                 'status' : 'ON'}) 
     
-# Thorlabs collimator + thorlabs square fiber
+## Thorlabs collimator + thorlabs square fiber
 executeList.append({'baseFolder' : r'C:\Users\rustyn\OneDrive - Allen Institute\evenField', 
                 'inputImage' : r'\190829\fullFrame_thorlabsSquare_moving_0125ms\MMStack_Pos0.ome.tif', 
                 'darkfieldImage' : r'\190829\noLaser_0001ms\MMStack_Pos0.ome.tif',
@@ -202,13 +207,13 @@ executeList.append({'baseFolder' : r'C:\Users\rustyn\OneDrive - Allen Institute\
                 'fiber' : 'smallSquare',
                 'collimator' : 'ThorlabsPAF2P-18A',
                 'status' : 'ON'}) 
-
-# -------- 
-# OFF
-# --------
-# large square
-    
-# Objective collimator
+#
+## -------- 
+## OFF
+## --------
+## large square
+#    
+## Objective collimator
 executeList.append({'baseFolder' : r'C:\Users\rustyn\OneDrive - Allen Institute\evenField', 
                 'inputImage' : r'\190820\fullFrame_static_0125msec\MMStack_Pos0.ome.tif', 
                 'darkfieldImage' : r'\190820\noLaser_0125msec\MMStack_Pos0.ome.tif',
@@ -307,44 +312,78 @@ for i, exHere in enumerate(executeList):
     xFit = tanHTopHat(xDom, *(resX.x))
     yFit = tanHTopHat(yDom, *(resY.x))
     
-    xStartStop = [np.where(np.abs(xFit - (resX.x[0])) > 0.01*(resX.x[1]) )[0][[0,-1]], np.where(np.abs(xFit - (resX.x[1] + resX.x[0])) < 0.01*(resX.x[1] + resX.x[0]) )[0][[0,-1]]] #[(inner values for signal > baseline)]
-    yStartStop = [np.where(np.abs(yFit - (resY.x[0])) > 0.01*(resX.x[1]) )[0][[0,-1]], np.where(np.abs(yFit - (resY.x[1] + resY.x[0])) < 0.01*(resY.x[1] + resY.x[0]) )[0][[0,-1]]]
+    xStartStop = [np.where(np.abs(xFit - (resX.x[0])) > lowBound*(resX.x[1]) )[0][[0,-1]], np.where(np.abs(xFit - (resX.x[1] + resX.x[0])) < highBound*(resX.x[1] + resX.x[0]) )[0][[0,-1]]] #[(inner values for signal > baseline)]
+    yStartStop = [np.where(np.abs(yFit - (resY.x[0])) > lowBound*(resX.x[1]) )[0][[0,-1]], np.where(np.abs(yFit - (resY.x[1] + resY.x[0])) < highBound*(resY.x[1] + resY.x[0]) )[0][[0,-1]]]
     
     boundSquareLow = np.array([yStartStop[0][0], xStartStop[0][0],  
                                  yStartStop[0][1], xStartStop[0][1]])
     
     boundSquareHigh= np.array([yStartStop[1][0], xStartStop[1][0],  
                                  yStartStop[1][1], xStartStop[1][1]])
+        
+    # Speckle contrast with fit value
+    # Defined in Shroeder, 2019
+    # StdDev(data - fit) / mean(fit)
+    speckleContrast = ((np.std(xLine[boundSquareHigh[1]:boundSquareHigh[3]] - xFit[boundSquareHigh[1]:boundSquareHigh[3]])/np.mean(xFit[boundSquareHigh[1]:boundSquareHigh[3]])) 
+                    + (np.std(yLine[boundSquareHigh[0]:boundSquareHigh[2]] - yFit[boundSquareHigh[0]:boundSquareHigh[2]])/np.mean(yFit[boundSquareHigh[0]:boundSquareHigh[2]])))/2
+
+    #%% Calculate ISO parameters
+    # As defined in ISO 13694:2000
+    # Edge steepness is (10% width - 90% width) / 10% width
+    # Flatness is mean(x) / max(x) for given area
+    # Uniformity is FWHM of peak of near field mean, scaled to max values
     
-    #boundBinary = np.zeros_like(image_stack2)
-    #boundBinary[boundSquare90Pct[0]:boundSquare90Pct[1], boundSquare90Pct[2]:boundSquare90Pct[3]] = 1
-    #inOutofBoundBox = np.sum(boundBinary*(image_stack2 - np.amin(image_stack2)))/np.sum(np.sum(image_stack2 - np.amin(image_stack2)))
+    # Edge steepness
+    xEdges = [np.where(np.abs(xLine - (np.amin(xLine)) > 0.1*(np.amax(xLine) - np.amin(xLine)) ))[0][[0,-1]], 
+              np.where(np.abs(xLine - (np.amax(xLine) + np.amin(xLine))) < 0.1*(np.amax(xLine) + np.amin(xLine)))[0][[0,-1]]] #[(inner values for signal > baseline)]
+    yEdges = [np.where(np.abs(yLine - (np.amin(yLine)) > 0.1*(np.amax(yLine) - np.amin(yLine)) ))[0][[0,-1]], 
+              np.where(np.abs(yLine - (np.amax(yLine) + np.amin(yLine))) < 0.1*(np.amax(yLine) + np.amin(yLine)))[0][[0,-1]]] #[(inner values for signal > baseline)]
     
-    #boundBinary10 = np.zeros_like(image_stack2)
-    #boundBinary10[boundSquare10Pct[0]:boundSquare10Pct[1], boundSquare10Pct[2]:boundSquare10Pct[3]] = 1
+    boundISOLow = np.array([yEdges[0][0], xEdges[0][0],  
+                                 yEdges[0][1], xEdges[0][1]])
     
-    #binSizeComparison = np.sum(boundBinary)/np.sum(boundBinary10)
+    boundISOHigh= np.array([yEdges[1][0], xEdges[1][0],  
+                                 yEdges[1][1], xEdges[1][1]])
     
-    #########################
-    #Calculate Variance of the region of xLine that is above upper threshold
-    #########################
-    ##print("xLineArrayValues = " +str(xLineArrayValues))
-    #Variance = np.var(xLineArrayValues)
-    #print("Variance = " +str(Variance))
-    #StdDev = np.std(xLineArrayValues)
-    #print("Standard Deviation = " +str(StdDev))
-    #mean90Pct = np.mean(xLineArrayValues)
-    #print("Mean of 90% Region = " +str(mean90Pct))
-    #PctDev = np.divide(StdDev, mean90Pct)
-    #print("% Deviation of 90% Region from Mean = " +str(PctDev))
-    #print("Coefficient of variation in 99% bound box = " + 'xxx')
-    #print("LengthXLineArray = " +str(LengthxLineArray))
-    ##slope, intercept, r_value, p_value, std_err = stats.linregress(xLineArray, xLineArrayValues)
-    ##print("r-squared: %f" % r_value**2)
-    ##plt.plot(xLineArray[0], xLineArrayValues, 'o', label='original data')
-    ##plt.plot(xLineArray[0], intercept + slope*xLineArray[0], 'r', label='fitted line')
-    ##plt.legend()
-    ##plt.show()
+    edgeSteepX = float((boundISOLow[3] - boundISOLow[1]) - (boundISOHigh[3] - boundISOHigh[1])) / (boundISOLow[3] - boundISOLow[1])
+    edgeSteepY = float((boundISOLow[2] - boundISOLow[0]) - (boundISOHigh[2] - boundISOHigh[0])) / (boundISOLow[2] - boundISOLow[0])
+    ISOedgeSteep = (edgeSteepX + edgeSteepY)/2
+    
+    # Flatness. Take value in 90th percentile box.
+
+    innerISOMask = pointsToMask(image_stack2.shape, [(boundISOHigh[1], boundISOHigh[0]), 
+                                                  (boundISOHigh[3], boundISOHigh[0]), 
+                                                  (boundISOHigh[3], boundISOHigh[2]),
+                                                  (boundISOHigh[1], boundISOHigh[2]), 
+                                                  (boundISOHigh[1], boundISOHigh[0])])
+    
+    ISOFlatness = np.mean(image_stack2[innerISOMask])/np.amax(image_stack2[innerISOMask])
+    
+    # Uniformity.  FWHM of peak around mean value in 'illuminated' region.
+    
+    meanIllumiation = np.mean(image_stack2[innerISOMask]/np.amax(image_stack2))
+    
+    outerISOMask = pointsToMask(image_stack2.shape, [(boundISOLow[1], boundISOLow[0]), 
+                                                  (boundISOLow[3], boundISOLow[0]), 
+                                                  (boundISOLow[3], boundISOLow[2]),
+                                                  (boundISOLow[1], boundISOLow[2]), 
+                                                  (boundISOLow[1], boundISOLow[0])])
+    
+    hist, binEdges = np.histogram(image_stack2[outerISOMask]/np.amax(image_stack2), 1000)
+    
+    halfMaxCount = 0.5*(np.amax(hist) - np.amin(hist)) + np.amin(hist)
+    
+    # Find FWHM.  Works when there is 1 peak.
+    histThresh = hist > halfMaxCount
+    FWHMRange = np.where(histThresh)[0][[0,-1]]
+    
+    
+    plt.plot(binEdges[:-1], hist)
+    plt.plot(binEdges[FWHMRange], [halfMaxCount, halfMaxCount], 'k')
+    
+    ISOUniformity = binEdges[FWHMRange[1]] - binEdges[FWHMRange[0]]
+    
+    
     
     #%%
     # Make plots
@@ -471,6 +510,13 @@ for i, exHere in enumerate(executeList):
     executeList[i]['AreaInner'] = int(Area90)
     executeList[i]['DiffArea'] = int(DiffArea10_90)
     executeList[i]['DiffAreaPct'] = float(DiffAreaPct)
+    
+    executeList[i]['speckleContrast'] = speckleContrast
+    
+    executeList[i]['ISOEdgeSteepness'] = ISOedgeSteep
+    executeList[i]['ISOFlatness'] = ISOFlatness
+    executeList[i]['ISOUniformity'] = ISOUniformity
+    
     
     executeList[i]['ImageThreshold'] = thresh
     executeList[i]['ImageSize'] = image_stack2.shape
