@@ -9,6 +9,9 @@
         ], 
         "DiffArea": 345983, 
         "DiffAreaPct": 17.390467344023467, 
+        "ISOEdgeSteepness": 0.26541706791882, 
+        "ISOFlatness": 0.6353396291900409, 
+        "ISOUniformity": 0.07957505533133713, 
         "ImageSize": [
             2048, 
             2448
@@ -45,6 +48,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_optotune_ON_ThorlabsPAF2P-18A.png", 
         "inputImage": "\\190121\\Large Sq\\16ms\\180121_SRON_16ms\\MMStack_Pos0.ome.tif", 
         "scrambler": "optotune", 
+        "speckleContrast": 0.045911230696307065, 
         "status": "ON"
     }, 
     {
@@ -57,6 +61,9 @@
         ], 
         "DiffArea": 53210, 
         "DiffAreaPct": 45.10086455331412, 
+        "ISOEdgeSteepness": 0.1397131309148265, 
+        "ISOFlatness": 0.906413185674163, 
+        "ISOUniformity": 0.04583362531788637, 
         "ImageSize": [
             2048, 
             2448
@@ -93,6 +100,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_smallSquare_optotune_ON_objective.png", 
         "inputImage": "\\181219\\Small Square\\16ms\\181219_SRON_16ms\\MMStack_Pos0.ome.tif", 
         "scrambler": "optotune", 
+        "speckleContrast": 0.01858688281527352, 
         "status": "ON"
     }, 
     {
@@ -105,6 +113,9 @@
         ], 
         "DiffArea": 38005, 
         "DiffAreaPct": 65.52586206896551, 
+        "ISOEdgeSteepness": 0.289741878059635, 
+        "ISOFlatness": 0.8600316873396036, 
+        "ISOUniformity": 0.0069911669602250315, 
         "ImageSize": [
             2048, 
             2448
@@ -141,6 +152,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_circle_optotune_ON_objective.png", 
         "inputImage": "\\181219\\Circle\\16ms\\181219_SRON_16ms\\MMStack_Pos0.ome.tif", 
         "scrambler": "optotune", 
+        "speckleContrast": 0.029660199541646684, 
         "status": "ON"
     }, 
     {
@@ -153,6 +165,9 @@
         ], 
         "DiffArea": 54214, 
         "DiffAreaPct": 27.563170471300012, 
+        "ISOEdgeSteepness": 0.2615396428414725, 
+        "ISOFlatness": 0.8805844491935259, 
+        "ISOUniformity": 0.14958873160867447, 
         "ImageSize": [
             2048, 
             2448
@@ -189,6 +204,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_borealis_borealis_ON_objective.png", 
         "inputImage": "\\181102\\Borealis\\16ms\\181102_SRON_16ms\\MMStack_Pos0.ome.tif", 
         "scrambler": "borealis", 
+        "speckleContrast": 0.03912136115686762, 
         "status": "ON"
     }, 
     {
@@ -201,6 +217,9 @@
         ], 
         "DiffArea": 328524, 
         "DiffAreaPct": 16.5836283842517, 
+        "ISOEdgeSteepness": 0.8083412928362343, 
+        "ISOFlatness": 0.7487098018811631, 
+        "ISOUniformity": 0.1412905941723936, 
         "ImageSize": [
             2048, 
             2448
@@ -237,6 +256,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_optotune_OFF_ThorlabsPAF2P-18A.png", 
         "inputImage": "\\190121\\Large Sq\\16ms\\180121_SROFF_16ms\\MMStack_Pos0.ome.tif", 
         "scrambler": "optotune", 
+        "speckleContrast": 0.11847231348660048, 
         "status": "OFF"
     }, 
     {
@@ -249,6 +269,9 @@
         ], 
         "DiffArea": 53726, 
         "DiffAreaPct": 45.535911040292916, 
+        "ISOEdgeSteepness": 0.3586892227611499, 
+        "ISOFlatness": 0.7636778104041427, 
+        "ISOUniformity": 0.8033198363666721, 
         "ImageSize": [
             2048, 
             2448
@@ -285,6 +308,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_smallSquare_optotune_OFF_objective.png", 
         "inputImage": "\\181219\\Small Square\\16ms\\181219_SROFF_16ms\\MMStack_Pos0.ome.tif", 
         "scrambler": "optotune", 
+        "speckleContrast": 0.06092233836284984, 
         "status": "OFF"
     }, 
     {
@@ -297,6 +321,9 @@
         ], 
         "DiffArea": 37412, 
         "DiffAreaPct": 65.02363737486095, 
+        "ISOEdgeSteepness": 0.3156208277703605, 
+        "ISOFlatness": 0.7867885998537069, 
+        "ISOUniformity": 0.0060209647039554505, 
         "ImageSize": [
             2048, 
             2448
@@ -333,6 +360,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_circle_optotune_OFF_objective.png", 
         "inputImage": "\\181219\\Circle\\16ms\\181219_SROFF_16ms\\MMStack_Pos0.ome.tif", 
         "scrambler": "optotune", 
+        "speckleContrast": 0.06896001770998371, 
         "status": "OFF"
     }, 
     {
@@ -345,6 +373,9 @@
         ], 
         "DiffArea": 55722, 
         "DiffAreaPct": 28.33129957291031, 
+        "ISOEdgeSteepness": 0.38089622641509435, 
+        "ISOFlatness": 0.5385842774798166, 
+        "ISOUniformity": 0.1555792976456662, 
         "ImageSize": [
             2048, 
             2448
@@ -381,6 +412,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_borealis_borealis_OFF_objective.png", 
         "inputImage": "\\181102\\Borealis\\16ms\\181102_SROFF_16ms\\MMStack_Pos0.ome.tif", 
         "scrambler": "borealis", 
+        "speckleContrast": 0.14805628361794526, 
         "status": "OFF"
     }, 
     {
@@ -393,6 +425,9 @@
         ], 
         "DiffArea": 105868, 
         "DiffAreaPct": 8.846720793654507, 
+        "ISOEdgeSteepness": 0.041016903271346675, 
+        "ISOFlatness": 0.9331039317921607, 
+        "ISOUniformity": 0.038411069935197495, 
         "ImageSize": [
             2048, 
             2048
@@ -429,6 +464,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_diffuser_ON_objective.png", 
         "inputImage": "\\190820\\fullFrame_moving_0125msec\\MMStack_Pos0.ome.tif", 
         "scrambler": "diffuser", 
+        "speckleContrast": 0.019208977974496298, 
         "status": "ON"
     }, 
     {
@@ -441,6 +477,9 @@
         ], 
         "DiffArea": 238929, 
         "DiffAreaPct": 14.470118199673085, 
+        "ISOEdgeSteepness": 0.04437444551942046, 
+        "ISOFlatness": 0.8447602824575259, 
+        "ISOUniformity": 0.03727056596297362, 
         "ImageSize": [
             2048, 
             2048
@@ -477,6 +516,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_diffuser_ON_ThorlabsPAF2P-18A.png", 
         "inputImage": "\\190820\\thorlabs_moving_0125msec\\MMStack_Pos0.ome.tif", 
         "scrambler": "diffuser", 
+        "speckleContrast": 0.01757220606037689, 
         "status": "ON"
     }, 
     {
@@ -489,6 +529,9 @@
         ], 
         "DiffArea": 117894, 
         "DiffAreaPct": 38.80057660788689, 
+        "ISOEdgeSteepness": 0.12662871600253006, 
+        "ISOFlatness": 0.908777524306524, 
+        "ISOUniformity": 0.07274997107218073, 
         "ImageSize": [
             2048, 
             2048
@@ -525,6 +568,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_smallSquare_diffuser_ON_ThorlabsPAF2P-18A.png", 
         "inputImage": "\\190829\\fullFrame_thorlabsSquare_moving_0125ms\\MMStack_Pos0.ome.tif", 
         "scrambler": "diffuser", 
+        "speckleContrast": 0.021899931630743136, 
         "status": "ON"
     }, 
     {
@@ -537,6 +581,9 @@
         ], 
         "DiffArea": 113390, 
         "DiffAreaPct": 9.466205837173579, 
+        "ISOEdgeSteepness": 0.49302500032333574, 
+        "ISOFlatness": 0.4477153510903918, 
+        "ISOUniformity": 0.15980851063829787, 
         "ImageSize": [
             2048, 
             2048
@@ -573,6 +620,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_diffuser_OFF_objective.png", 
         "inputImage": "\\190820\\fullFrame_static_0125msec\\MMStack_Pos0.ome.tif", 
         "scrambler": "diffuser", 
+        "speckleContrast": 0.1587684841074786, 
         "status": "OFF"
     }, 
     {
@@ -585,6 +633,9 @@
         ], 
         "DiffArea": 256296, 
         "DiffAreaPct": 15.42561643241994, 
+        "ISOEdgeSteepness": 0.5424715759969745, 
+        "ISOFlatness": 0.6175663137183413, 
+        "ISOUniformity": 0.1509347313645259, 
         "ImageSize": [
             2048, 
             2048
@@ -621,6 +672,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_largeSquare_diffuser_OFF_ThorlabsPAF2P-18A.png", 
         "inputImage": "\\190820\\thorlabs_static_0125msec\\MMStack_Pos0.ome.tif", 
         "scrambler": "diffuser", 
+        "speckleContrast": 0.13196596370384, 
         "status": "OFF"
     }, 
     {
@@ -633,6 +685,9 @@
         ], 
         "DiffArea": 125335, 
         "DiffAreaPct": 40.64066563336986, 
+        "ISOEdgeSteepness": 0.41385406199853025, 
+        "ISOFlatness": 0.654629145781918, 
+        "ISOUniformity": 0.7174120754973413, 
         "ImageSize": [
             2048, 
             2048
@@ -669,6 +724,7 @@
         "figSavePath": "C:\\Users\\rustyn\\OneDrive - Allen Institute\\evenField\\Figures\\Lineprofile_smallSquare_diffuser_OFF_ThorlabsPAF2P-18A.png", 
         "inputImage": "\\190829\\fullFrame_thorlabsSquare_static_0125ms\\MMStack_Pos0.ome.tif", 
         "scrambler": "diffuser", 
+        "speckleContrast": 0.12166350686572949, 
         "status": "OFF"
     }
 ]
