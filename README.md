@@ -10,7 +10,7 @@ We test some of these solutions and compare them to a commercial product, the Bo
 ----
 
 Our full evaluation of this system can be found in our preprint : 
-{bioRxiv link TBD}
+https://www.biorxiv.org/content/10.1101/2021.04.20.440683v1
   
 ---
   
