@@ -33,6 +33,27 @@
 	  1 x Edmund Optics 88-379, 10X Objective, Nikon CFI Plan Fluor
 	   OR
 	  1 x Thorlabs PAF2P-18A, FiberPort, FC/PC, f=18.4 mm, 350 - 700 nm, Ø3.01 mm Waist
-:rotating_light: Note: Mitsubishi MM fiber has a very large fiber core (600 µm x 600 µm). Due to its size, using the 10X Objective          
+		       Note: Mitsubishi MM fiber has a very large fiber core (600 µm x 600 µm). Due to its size, using the 10X Objective          
                        is the preferred collimation option to avoid vignetting; however, this option introduces additional optical 
                        alignment complexities. 
+
+### Zoom illuminator:
+
+The following parts form a critical illumiator to couple an output fiber into a square prism, then project the prism exit face to the sample plane.  The following components were used in combination with a Nikon Ti2 and Iris15 camera.  The zoom lens adjustments allow for straightforward matching of the illumination and collection areas with minimal light outside of this region.  Using the square prism avoids the need for a square-core fiber and additional magnification in this application.  
+
+	1 x Thorlabs SM2A54 
+	2 x Thorlabs LCP01T
+	1 x Thorlabs LCP33
+	1 x Thorlabs CXY1A
+	1 x Thorlabs SM2N1
+	1 x Thorlabs TTL200-A (or appropriate tube lens for your system)
+	1 x Thorlabs KCB2C
+	1 x Thorlabs BB2-E02
+	4 x Thorlabs ER05
+	1 x Thorlabs RS3P8 + 1 x RS6P8 (exact lengths will vary depending on mounting height)
+	1 x Thorlabs RSH3
+
+	1 x Edmund 54-363 Computar 10x close-focus C Mount zoom lens
+	1 x Edmund 48-582 2 mm x 2 mm light pipe, or similar (Lumencor screw-on light pipe used in demo)
+
+	1 x hastyCelestaAdapter.stl or equivalent for specific light pipe used 	

@@ -32,6 +32,7 @@ This folder contains everything needed to build the EvenField system, including:
 * A complete [bill of materials] (optics and mounts)
 * CAD renderings and .STEP files for the spinning diffuser component
 * Details on custom optical fiber from Mitsubishi Cable Industries (MCI).
+* Illuminator module for easy sensor size matching
 * *Coming Soon:* Optical alignment guide 
 
 #### Analysis:
@@ -40,3 +41,6 @@ The analysis code used for the EvenField publication has also been provided with
 [Nicolase 3500]: https://github.com/PRNicovich/NicoLase 
 [bill of materials]: https://github.com/AllenInstitute/EvenField/blob/master/Hardware/EvenField%20Parts%20List.md
 [here]: https://github.com/AllenInstitute/EvenField/tree/master/Analysis
+
+#### Zoom illuminator update
+Building on the published EvenField coupler and illuminator design, we implemented a microscope illuminator that features straightforward alignment and sensor-shape matching.  Illumination energy is delivered through an optical fiber - the details of which are not critical for use - and into a homogenizing prism.  The square exit face of this prism is imaged by a commercially-available zoom camera lens and a tube + objective lens pair to the sample plane.  Adjustments to the size and focus of the illumination field are straightfoward using the zoom and focus rings on the camera lens. On its own this assembly provides a simple and cheap square-field illumninator that will work with a wide range of detection camera formats.  Together with the EvenField homogenizer and NicoLase laser launch you can build your own microscopy illumination platform with custom laser power, color, and timing, evenly distributed over a field matching the detection camera FOV.  Add a chassis, cube, objective, and camera, and you've got a fluorescence microscope. 
